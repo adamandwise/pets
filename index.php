@@ -17,9 +17,10 @@ $f3 = Base::instance();
 //Define a default route
 // what the user sees when the go to the homepage of the hello project
 $f3->route('GET /',function(){
-    echo'<h1>Pet Home<h1>';
+    //echo'<h1>Hello, Fat Free!<h1>';
 
-
+    $view = new Template();
+    echo $view-> render('views/home.html');
 });
 
 
