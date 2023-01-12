@@ -1,0 +1,15 @@
+img {
+    hieght: 50px;
+    width: 50px;
+}
+
+h1 {
+
+    color:red;
+    border:1px black solid;
+    text-align: center;
+}
+
+a:hover{
+    color:green;
+}
